@@ -2,6 +2,8 @@
 
 Implementación en Kotlin de los ejercicios 2, 3 y 4 del Laboratorio 12 de Teoría de la Computación.
 
+**Demo**: <https://youtu.be/wMYnW93nZhA>
+
 ## Ejecución
 
 Para ejecutar todos los ejercicios:
