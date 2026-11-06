@@ -14,5 +14,8 @@ val matriz = listOf(
     listOf(7, 8, 9)
 )
 
-println("Problema 3 - Matriz transpuesta:")
+println("Problema 3 - Transponer matriz")
+println("Antes:")
+matriz.forEach(::println)
+println("Después:")
 transponer(matriz).forEach(::println)

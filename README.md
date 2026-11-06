@@ -7,14 +7,16 @@ Implementación en Kotlin de los ejercicios 2, 3 y 4 del Laboratorio 12 de Teor�
 Para ejecutar todos los ejercicios:
 
 ```bash
-kotlin main.kts
+kotlin -J--enable-native-access=ALL-UNNAMED -J--sun-misc-unsafe-memory-access=allow main.kts
 ```
 
 También se puede ejecutar cada ejercicio por separado, por ejemplo:
 
 ```bash
-kotlin problemas/P2.kts
+kotlin -J--enable-native-access=ALL-UNNAMED -J--sun-misc-unsafe-memory-access=allow problemas/P2.kts
 ```
+
+Las opciones `-J` evitan las advertencias de compatibilidad producidas por Kotlin al ejecutarse con versiones recientes de Java.
 
 ## Estructura de archivos
 

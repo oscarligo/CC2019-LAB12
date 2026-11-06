@@ -15,5 +15,8 @@ val telefonos: List<Diccionario> = listOf(
     mapOf("make" to "Samsung", "model" to 7, "color" to "Blue")
 )
 
-println("Problema 2 - Orden por model:")
+println("Problema 2 - Ordenar por model")
+println("Antes:")
+telefonos.forEach(::println)
+println("Después:")
 ordenarPorClave(telefonos, "model").forEach(::println)
